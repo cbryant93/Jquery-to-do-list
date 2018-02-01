@@ -10,8 +10,8 @@ var $submit = $("#submit");
 // })
 
 $submit.on('click',function(event){
-  $toDoList.append("<li>"+$newTodo.val()+"</li>");
-  
+  $toDoList.append("<li class='list-item'><input class='checkbox' type='checkbox'>"+$newTodo.val()+"</li></input>");
+
 })
 
 
